@@ -14,4 +14,5 @@ Pod::Spec.new do |s|
   s.source_files = 'OnOffSwitchControl.{h,m}', 'OnOffSwitchControlCell.{h,m}'
   s.public_header_files = 'OnOffSwitchControl.h', 'OnOffSwitchControlCell.h'
   s.frameworks = 'Carbon'
+  s.requires_arc = true
 end
